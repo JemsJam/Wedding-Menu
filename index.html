@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FBF7EF">
+<title>Femi &amp; Queenie · Our Wedding Menu</title>
+<meta name="description" content="The food and drinks menu for the wedding of Jemilat & Oluwafemi, 10 October 2026.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #FBF7EF;
+    --paper: #FFFDF8;
+    --ink: #2E2219;
+    --muted: #6B5A48;
+    --gold: #9A7634;
+    --gold-soft: #D8C39A;
+    --serif: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+    --script: "Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--ivory);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 1rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* The printed-card frame */
+  .card {
+    max-width: 34rem;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1px solid var(--gold-soft);
+    outline: 1px solid var(--gold-soft);
+    outline-offset: -8px;
+    padding: 3rem 1.5rem 2.75rem;
+    text-align: center;
+  }
+
+  /* Header */
+  .couple {
+    font-family: var(--script);
+    font-weight: 400;
+    font-size: clamp(3.1rem, 15vw, 4.4rem);
+    line-height: 1.1;
+    color: var(--gold);
+    padding: 0 .25rem;
+  }
+  .title {
+    font-size: clamp(1.75rem, 7.5vw, 2.2rem);
+    font-weight: 600;
+    letter-spacing: .02em;
+    margin-top: .6rem;
+  }
+  .tagline {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1.2rem;
+    margin: .5rem auto 0;
+    max-width: 20rem;
+  }
+  .details {
+    margin-top: 1.4rem;
+    font-size: 1.05rem;
+    color: var(--muted);
+    line-height: 1.45;
+  }
+  .details strong { color: var(--ink); font-weight: 600; display: block; font-size: 1.15rem; }
+
+  /* Ornamental divider (gold diamonds, a nod to adire geometry) */
+  .ornament {
+    display: block;
+    width: 9.5rem;
+    height: 1rem;
+    margin: 2rem auto;
+    color: var(--gold);
+  }
+
+  /* Menu sections */
+  section + section { margin-top: 2.6rem; }
+  h2 {
+    font-size: clamp(1.7rem, 7vw, 2rem);
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1.2;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 1px;
+    background: var(--gold-soft);
+    margin: .7rem auto 1.1rem;
+  }
+  ul { list-style: none; }
+  li { padding: .5rem 0; }
+  li + li { border-top: 1px dotted var(--gold-soft); }
+  .item { font-size: 1.35rem; font-weight: 600; display: block; }
+  .note { display: block; font-style: italic; color: var(--muted); font-size: 1.1rem; }
+
+  /* Footer */
+  footer { margin-top: .5rem; }
+  .thanks { font-style: italic; font-size: 1.3rem; }
+  .signoff {
+    font-family: var(--script);
+    font-size: clamp(2.2rem, 10vw, 2.8rem);
+    color: var(--gold);
+    margin-top: .4rem;
+    line-height: 1.2;
+  }
+
+  /* The one moment of motion: the card settles in on load */
+  @media (prefers-reduced-motion: no-preference) {
+    .card { animation: settle .9s ease-out both; }
+    @keyframes settle { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  }
+
+  @media (min-width: 40rem) {
+    body { padding: 3rem 1rem; }
+    .card { padding: 4rem 3rem 3.5rem; }
+  }
+</style>
+</head>
+<body>
+<main class="card">
+
+  <header>
+    <h1 class="couple">Femi &amp; Queenie</h1>
+    <p class="title">Our Wedding Menu</p>
+    <p class="tagline">Good food, great company, and a beautiful celebration.</p>
+    <p class="details">
+      <strong>Saturday, 10 October 2026</strong>
+      Ronnie Dee Event Hall, Iju Road,<br>Agege Pen Cinema
+    </p>
+  </header>
+
+  <svg class="ornament" viewBox="0 0 152 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+    <line x1="0" y1="8" x2="54" y2="8"/><line x1="98" y1="8" x2="152" y2="8"/>
+    <path d="M76 1 L83 8 L76 15 L69 8 Z" fill="currentColor"/>
+    <path d="M62 4 L66 8 L62 12 L58 8 Z"/><path d="M90 4 L94 8 L90 12 L86 8 Z"/>
+  </svg>
+
+  <!-- =========================================================
+       MENU — edit only the text between the tags below.
+       To add a dish, copy a whole <li> ... </li> line.
+       To remove a dish, delete its whole <li> ... </li> line.
+       The small italic line under a dish is the <span class="note">.
+       ========================================================= -->
+
+  <section>
+    <h2>Main Dishes</h2>
+    <ul>
+      <li><span class="item">Abula</span></li>
+      <li><span class="item">Jollof Rice &amp; Fried Rice</span><span class="note">with chicken, salad / moimoi</span></li>
+      <li><span class="item">Ofada Rice</span></li>
+      <li><span class="item">Pounded Yam</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proteins</h2>
+    <ul>
+      <li><span class="item">Chicken</span></li>
+      <li><span class="item">Beef</span></li>
+      <li><span class="item">Fish</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Swallows &amp; Soups</h2>
+    <ul>
+      <li><span class="item">Amala &amp; Abula</span></li>
+      <li><span class="item">Pounded Yam &amp; Egusi</span></li>
+      <li><span class="item">Semo &amp; Efo Riro</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Grills &amp; Small Chops</h2>
+    <ul>
+      <li><span class="item">Chicken Grills</span><span class="note">with yam</span></li>
+      <li><span class="item">Turkey Grills</span><span class="note">with fries</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Drinks</h2>
+    <ul>
+      <li><span class="item">Soft Drinks</span></li>
+      <li><span class="item">Juice</span></li>
+      <li><span class="item">Malt</span></li>
+      <li><span class="item">Booze</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Desserts</h2>
+    <ul>
+      <li><span class="item">Tapioca</span></li>
+      <li><span class="item">Cake Parfait</span></li>
+    </ul>
+  </section>
+
+  <!-- ===================== END OF MENU ===================== -->
+
+  <svg class="ornament" viewBox="0 0 152 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+    <line x1="0" y1="8" x2="54" y2="8"/><line x1="98" y1="8" x2="152" y2="8"/>
+    <path d="M76 1 L83 8 L76 15 L69 8 Z" fill="currentColor"/>
+    <path d="M62 4 L66 8 L62 12 L58 8 Z"/><path d="M90 4 L94 8 L90 12 L86 8 Z"/>
+  </svg>
+
+  <footer>
+    <p class="thanks">Thank you for celebrating with us.</p>
+    <p class="signoff">Jemilat &amp; Oluwafemi <span aria-label="love">❤️</span></p>
+  </footer>
+
+</main>
+</body>
+</html>
